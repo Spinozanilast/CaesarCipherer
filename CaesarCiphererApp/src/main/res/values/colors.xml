@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="mainComponent_color">#7C4DFF</color>
+    <color name="focusComponent_color">#4D88FF</color>
+    <color name="pressedComponent_color">#2441FB</color>
+    <color name="error_color">#AE0000</color>
+    <color name="shutter_background_color">#A137346A</color>
+    <color name="transparent">#00000000</color>
+    <color name="history_border">#D8AE91FF</color>
+</resources>

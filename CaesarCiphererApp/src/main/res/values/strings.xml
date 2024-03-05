@@ -1,0 +1,88 @@
+<resources>
+    <!-- Название приложения -->
+    <string name="app_name" translatable="false">Caesar Cipherer</string>
+
+    <!-- Названия действий -->
+    <string name="action_settings">Настройки</string>
+    <string name="action_aboutAuthor">Об авторе</string>
+    <string name="action_aboutApp">О программе</string>
+    <string name="clear_action">Очистить поля ввода и вывода</string>
+
+    <!-- Названия фрагментов -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+
+    <!-- Тексты кнопок -->
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <!-- Подсказки для полей ввода -->
+    <string name="keyField_hint">Введите ключ</string>
+
+    <!-- Текст кнопки -->
+    <string name="decryptingButton_text">История дешифрований</string>
+
+    <!-- Названия алфавитов -->
+    <string name="russian_alphabet">Русский</string>
+    <string name="english_alphabet">Английский</string>
+    <string name="greek_alphabet">Греческий</string>
+    <string name="polish_alphabet">Польский</string>
+    <string name="ukranian_alphabet">Украинский</string>
+
+    <!-- Тексты для шифрования -->
+    <string name="text_toCipher">Текст для шифрования</string>
+    <string name="text_cipherer_usingHistory">История использования шифратора</string>
+    <string name="text_cipheredText">Зашифрованный текст</string>
+    <string name="text_alphabet">Алфавит:</string>
+
+    <!-- Подсказки для зашифрованного текста -->
+    <string name="hint_cipheredText">Зашифрованный текст</string>
+    <string name="hint_forCiphering">Текст для шифрования</string>
+
+    <!-- Описание кнопки -->
+    <string name="button_description">Кнопка, по нажатию которой шифруется/дешифруется текст</string>
+
+    <!-- Текст ключа -->
+    <string name="text_key">Ключ/Смещение:</string>
+
+    <!-- Названия меток -->
+    <string name="Cipherer_Decipherer_label">Шифратор/Дешифратор</string>
+    <string name="history_label">История</string>
+
+    <!-- Действие смены темы -->
+    <string name="change_theme_action">Сменить тему</string>
+
+    <!-- Режимы шифрования и расшифрования -->
+    <string name="ciphering_mode">Шифрование</string>
+    <string name="deciphering_mode">Расшифрование</string>
+
+    <!-- Текст расшифрованного текста -->
+    <string name="deciphered_text">Расшифрованный текст</string>
+
+    <!-- Полное имя автора -->
+    <string name="fullAuthorName">Жегздринь Ангелина Романовна</string>
+
+    <!-- Названия меток об авторе и о приложении -->
+    <string name="about_author_label">Об авторе</string>
+    <string name="about_app_label">О программе</string>
+
+    <!-- Тексты информации о приложении -->
+    <string name="app_info_text_first">Приложение Шифратор/дешифратор позволяет шифровать и расшифровывать тексты с помощью шифра Цезаря. Шифр Цезаря - это один из самых простых и известных методов шифрования, который заключается в сдвиге букв алфавита на определенное количество позиций. В приложении вы можете выбрать язык текста из пяти вариантов: русский, английский, французский, немецкий или испанский. Вы также можете выбрать ключ шифрования по длине алфавита, например, если ключ равен 3, то буква А станет буквой Д, буква Б станет буквой Е и так далее.</string>
+    <string name="app_info_text_second_part">В приложении есть история шифрований и расшифрований, которую вы можете просматривать и удалять.</string>
+    <string name="app_info_text_third_part">Приложение Шифратор/дешифратор- это удобный и понятный инструмент для защиты и восстановления информации.</string>
+    <string name="university_text">Белорусский национальный технический университет</string>
+    <string name="facultie_text">Факультет информационных технологий и робототехники</string>
+    <string name="department_text">Кафедра программного обеспечения информационных систем и технологий</string>
+    <string name="course_work_text">Курсовая работа</string>
+    <string name="discipline_text">по дисциплине: Программирование на языке Java</string>
+    <string name="course_theme_text">Шифр Цезаря кодирования данных</string>
+    <string name="who_complete_text">Выполнила: студентка группы 10702221</string>
+    <string name="leader_fullname_text">Сидорик Валерий Владимирович</string>
+    <string name="leader_work_position_text">Преподаватель: к.ф.-м.н. доц.</string>
+    <string name="city_and_year_text">Минск, 2023</string>
+    <string name="gmail_text">zegangelina@gmail.com</string>
+    <string name="history_button_description">Копирует тексты в шифратор</string>
+    <string name="record_number_text">№ Записи</string>
+    <string name="delete_history_text">Удалить историю</string>
+    <string name="title_list_menu_text">Титульный лист</string>
+</resources>

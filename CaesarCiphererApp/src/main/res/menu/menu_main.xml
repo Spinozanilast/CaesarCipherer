@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.caesarcipherer.MainActivity">
+    <item
+        android:id="@+id/action_about_author"
+        android:orderInCategory="102"
+        android:title="@string/action_aboutAuthor" />
+    <item
+        android:id="@+id/action_about_app"
+        android:orderInCategory="103"
+        android:title="@string/action_aboutApp" />
+    <item
+        android:id="@+id/action_title_list"
+        android:orderInCategory="103"
+        android:title="@string/title_list_menu_text" />
+</menu>

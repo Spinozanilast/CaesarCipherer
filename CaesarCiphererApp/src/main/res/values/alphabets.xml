@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="alphabets">
+    <item name="english">ABCDEFGHIJKLMNOPQRSTUVWXYZ</item>
+    <item name="russian">АБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ</item>
+    <item name="greek">ΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩ</item>
+    <item name="polish">ABCĆDEFGHIJKLMNOPQRSTUVWXYZŹŻ</item>
+    <item name="ukrainian">АБВГҐДЕЄЖЗИІЇЙКЛМНОПРСТУФХЦЧШЩЬЮЯ </item>
+    </string-array>
+</resources>

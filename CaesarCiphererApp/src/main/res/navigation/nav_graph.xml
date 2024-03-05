@@ -1,0 +1,47 @@
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph.xml"
+    app:startDestination="@id/Main">
+
+    <fragment
+        android:id="@+id/Main"
+        android:name="com.caesarcipherer.fragments.CiphererFragment"
+        android:label="@string/Cipherer_Decipherer_label"
+        tools:layout="@layout/content_main_cipherer_fragment">
+    </fragment>
+
+    <fragment
+        android:id="@+id/History"
+        android:name="com.caesarcipherer.fragments.HistoryFragment"
+        android:label="@string/history_label"
+        tools:layout="@layout/history_fragment">
+    </fragment>
+
+    <fragment
+        android:id="@+id/AboutAuthor"
+        android:name="com.caesarcipherer.fragments.AboutAuthorFragment"
+        android:label="@string/about_author_label"
+        tools:layout="@layout/about_person_fragment">
+    </fragment>
+
+    <fragment
+        android:id="@+id/AboutApp"
+        android:name="com.caesarcipherer.fragments.AboutAppFragment"
+        android:label="@string/about_app_label"
+        tools:layout="@layout/about_app_fragment">
+    </fragment>
+
+    <fragment
+        android:id="@+id/Title"
+        android:name="com.caesarcipherer.fragments.TitleFragment"
+        android:label="Титульный лист"
+        tools:layout="@layout/title_fragment">
+    </fragment>
+
+    <action android:id="@+id/action_to_Main" app:destination="@id/Main" />
+    <action android:id="@+id/action_to_History" app:destination="@id/History" />
+    <action android:id="@+id/action_to_AboutAuthor" app:destination="@id/AboutAuthor" />
+    <action android:id="@+id/action_to_AboutApp" app:destination="@id/AboutApp" />
+    <action android:id="@+id/action_to_Title" app:destination="@id/Title" />
+</navigation>
